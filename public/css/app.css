@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana;
+}
+
+.header_title {
+  background: black;
+  text-align: center;
+}
+
+.header_title h1 {
+  color: white;
+  padding: 25px 0;
+}
+
+.bev_cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.bev_cont .bev_list {
+  background: darkgreen;
+  text-align: center;
+  width: 270px;
+  margin: 20px 30px;
+}
+
+.bev_cont p {
+  color: white;
+  padding: 10px 20px;
+}
+
+.footer_title {
+  background: black;
+  text-align: center;
+}
+
+.footer_title h3 {
+  color: white;
+  padding: 15px 0;
+}
+
