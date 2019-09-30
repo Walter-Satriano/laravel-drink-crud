@@ -16,8 +16,12 @@
 
       @include("elem.header")
 
-      <div class="bev_cont">
+      <div class="bev_box">
         @yield("content")
+      </div>
+
+      <div class="calc_box">
+        @yield("calc")
       </div>
 
       @include("elem.footer")
