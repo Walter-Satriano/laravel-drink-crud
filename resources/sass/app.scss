@@ -7,16 +7,16 @@
 }
 
 .header_title {
-  background: black;
+  background: orange;
   text-align: center;
 
   h1 {
-    color: white;
+    color: black;
     padding: 25px 0;
   }
 }
 
-.bev_cont {
+.bev_box, .calc_box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -24,24 +24,38 @@
 
 
   .bev_list {
-    background: darkgreen;
+    background: lightyellow;
+    border: 2px solid orange;
     text-align: center;
     width: 270px;
     margin: 20px 30px;
+
+    p {
+      color: black;
+      padding: 10px 20px;
+    }
   }
 
-  p {
-    color: white;
-    padding: 10px 20px;
+  .calc_list {
+    background: mediumpurple;
+    border: 2px solid purple;
+    text-align: center;
+    width: 270px;
+    margin: 15px 30px;
+
+    p {
+      color: white;
+      padding: 10px 20px;
+    }
   }
 }
 
 .footer_title {
-  background: black;
+  background: orange;
   text-align: center;
 
   h3 {
-    color: white;
+    color: black;
     padding: 15px 0;
   }
 }

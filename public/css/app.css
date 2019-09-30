@@ -6,41 +6,60 @@
 }
 
 .header_title {
-  background: black;
+  background: orange;
   text-align: center;
 }
 
 .header_title h1 {
-  color: white;
+  color: black;
   padding: 25px 0;
 }
 
-.bev_cont {
+.bev_box,
+.calc_box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 40px 0;
 }
 
-.bev_cont .bev_list {
-  background: darkgreen;
+.bev_box .bev_list,
+.calc_box .bev_list {
+  background: lightyellow;
+  border: 2px solid orange;
   text-align: center;
   width: 270px;
   margin: 20px 30px;
 }
 
-.bev_cont p {
+.bev_box .bev_list p,
+.calc_box .bev_list p {
+  color: black;
+  padding: 10px 20px;
+}
+
+.bev_box .calc_list,
+.calc_box .calc_list {
+  background: mediumpurple;
+  border: 2px solid purple;
+  text-align: center;
+  width: 270px;
+  margin: 15px 30px;
+}
+
+.bev_box .calc_list p,
+.calc_box .calc_list p {
   color: white;
   padding: 10px 20px;
 }
 
 .footer_title {
-  background: black;
+  background: orange;
   text-align: center;
 }
 
 .footer_title h3 {
-  color: white;
+  color: black;
   padding: 15px 0;
 }
 
