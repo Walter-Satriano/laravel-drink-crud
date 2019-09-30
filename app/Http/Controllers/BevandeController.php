@@ -12,7 +12,10 @@ class BevandeController extends Controller {
     $title = "Bevande";
 
     $bevande = Bevanda::all();
+    $min = Bevanda::min("prezzo");
+    $max = Bevanda::max("prezzo");
+    $avg = Bevanda::avg("prezzo");
 
-    return view("bevande", compact("title", "bevande"));
+    return view("bevande", compact("title", "bevande", "min", "max", "avg"));
   }
 }
